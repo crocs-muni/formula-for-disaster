@@ -1,0 +1,46 @@
+###### xz ######
+--- mdadd-2002-it ---
+X4 = -4*Z2*Z3*b*(X2*Z3 + X3*Z2) + (X2*X3 - Z2*Z3*a)**2
+Z4 = X1*(X2*Z3 - X3*Z2)**2
+Assumption in the formula (Z1 == 1).
+
+--- mdadd-2002-bj-2 ---
+X4 = -4*Z2*Z3*b*(X2*Z3 + X3*Z2) + (X2*X3 - Z2*Z3*a)**2
+Z4 = X1*(X2*Z3 - X3*Z2)**2
+Assumption in the formula (Z1 == 1).
+
+--- dadd-2002-it ---
+X4 = Z1*(-4*Z2*Z3*b*(X2*Z3 + X3*Z2) + (X2*X3 - Z2*Z3*a)**2)
+Z4 = X1*(X2*Z3 - X3*Z2)**2
+
+--- mdadd-2002-bj ---
+X4 = -4*Z2*Z3*b*(X2*Z3 + X3*Z2) + (X2*X3 - Z2*Z3*a)**2
+Z4 = X1*(X2*Z3 - X3*Z2)**2
+Assumption in the formula (Z1 == 1).
+
+--- mdadd-2002-it-3 ---
+X4 = -4*Z2*Z3*b*(X2*Z3 + X3*Z2) + (X2*X3 - Z2*Z3*a)**2
+Z4 = X1*(X2*Z3 - X3*Z2)**2
+Assumption in the formula (Z1 == 1).
+
+--- dadd-2002-it-2 ---
+X4 = -X1*(X2*Z3 - X3*Z2)**2 + Z1*(4*Z2**2*Z3**2*b + 2*(X2*X3 + Z2*Z3*a)*(X2*Z3 + X3*Z2))
+Z4 = Z1*(X2*Z3 - X3*Z2)**2
+
+--- mdadd-2002-it-4 ---
+X4 = -X1*(X2*Z3 - X3*Z2)**2 + 4*Z2**2*Z3**2*b + 2*(X2*X3 + Z2*Z3*a)*(X2*Z3 + X3*Z2)
+Z4 = (X2*Z3 - X3*Z2)**2
+Assumption in the formula (Z1 == 1).
+
+--- dadd-2002-it-3 ---
+X4 = Z1*(-4*Z2*Z3*b*(X2*Z3 + X3*Z2) + (X2*X3 - Z2*Z3*a)**2)
+Z4 = X1*(X2*Z3 - X3*Z2)**2
+
+--- mdadd-2002-it-2 ---
+X4 = -X1*(X2*Z3 - X3*Z2)**2 + 4*Z2**2*Z3**2*b + 2*(X2*X3 + Z2*Z3*a)*(X2*Z3 + X3*Z2)
+Z4 = (X2*Z3 - X3*Z2)**2
+Assumption in the formula (Z1 == 1).
+
+--- dadd-2002-it-4 ---
+X4 = -X1*(X2*Z3 - X3*Z2)**2 + Z1*(4*Z2**2*Z3**2*b + 2*(X2*X3 + Z2*Z3*a)*(X2*Z3 + X3*Z2))
+Z4 = Z1*(X2*Z3 - X3*Z2)**2

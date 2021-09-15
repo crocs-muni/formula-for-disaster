@@ -1,0 +1,488 @@
+###### inverted ######
+--- madd-2008-bbjlp ---
+t0 = Z1**2
+B = Z1**2*d
+C = X1*X2
+D = Y1*Y2
+E = X1*X2*Y1*Y2
+t1 = Y1*Y2*a
+H = X1*X2 - Y1*Y2*a
+t2 = X1 + Y1
+t3 = X2 + Y2
+t4 = (X1 + Y1)*(X2 + Y2)
+t5 = -X1*X2 + (X1 + Y1)*(X2 + Y2)
+I = -X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2)
+t6 = X1*X2*Y1*Y2 + Z1**2*d
+X3 = (X1*X2 - Y1*Y2*a)*(X1*X2*Y1*Y2 + Z1**2*d)
+t7 = X1*X2*Y1*Y2 - Z1**2*d
+Y3 = (X1*X2*Y1*Y2 - Z1**2*d)*(-X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2))
+t8 = (X1*X2 - Y1*Y2*a)*(-X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2))
+Z3 = Z1*(X1*X2 - Y1*Y2*a)*(-X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2))
+Unsatisfied assumption in the formula (Z2 == 1).
+
+--- mmadd-2008-bbjlp ---
+C = X1*X2
+D = Y1*Y2
+E = X1*X2*Y1*Y2
+t0 = Y1*Y2*a
+H = X1*X2 - Y1*Y2*a
+t1 = X1 + Y1
+t2 = X2 + Y2
+t3 = (X1 + Y1)*(X2 + Y2)
+t4 = -X1*X2 + (X1 + Y1)*(X2 + Y2)
+I = -X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2)
+t5 = X1*X2*Y1*Y2 + d
+X3 = (X1*X2 - Y1*Y2*a)*(X1*X2*Y1*Y2 + d)
+t6 = X1*X2*Y1*Y2 - d
+Y3 = (X1*X2*Y1*Y2 - d)*(-X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2))
+Z3 = (X1*X2 - Y1*Y2*a)*(-X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2))
+Unsatisfied assumption in the formula (Z1 == 1).
+
+--- add-2008-bbjlp ---
+A = Z1*Z2
+t0 = Z1**2*Z2**2
+B = Z1**2*Z2**2*d
+C = X1*X2
+D = Y1*Y2
+E = X1*X2*Y1*Y2
+t1 = Y1*Y2*a
+H = X1*X2 - Y1*Y2*a
+t2 = X1 + Y1
+t3 = X2 + Y2
+t4 = (X1 + Y1)*(X2 + Y2)
+t5 = -X1*X2 + (X1 + Y1)*(X2 + Y2)
+I = -X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2)
+t6 = X1*X2*Y1*Y2 + Z1**2*Z2**2*d
+X3 = (X1*X2 - Y1*Y2*a)*(X1*X2*Y1*Y2 + Z1**2*Z2**2*d)
+t7 = X1*X2*Y1*Y2 - Z1**2*Z2**2*d
+Y3 = (X1*X2*Y1*Y2 - Z1**2*Z2**2*d)*(-X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2))
+t8 = (X1*X2 - Y1*Y2*a)*(-X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2))
+Z3 = Z1*Z2*(X1*X2 - Y1*Y2*a)*(-X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2))
+
+###### extended ######
+--- madd-2008-hwcd ---
+A = X1*X2
+B = Y1*Y2
+t0 = T2*d
+C = T1*T2*d
+D = Z1
+t1 = X1 + Y1
+t2 = X2 + Y2
+t3 = (X1 + Y1)*(X2 + Y2)
+t4 = -X1*X2 + (X1 + Y1)*(X2 + Y2)
+E = -X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2)
+F = -T1*T2*d + Z1
+G = T1*T2*d + Z1
+t5 = X1*X2*a
+H = -X1*X2*a + Y1*Y2
+X3 = (-T1*T2*d + Z1)*(-X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2))
+Y3 = (T1*T2*d + Z1)*(-X1*X2*a + Y1*Y2)
+T3 = (-X1*X2*a + Y1*Y2)*(-X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2))
+Z3 = (-T1*T2*d + Z1)*(T1*T2*d + Z1)
+Unsatisfied assumption in the formula (Z2 == 1).
+
+--- add-2008-hwcd-2 ---
+A = X1*X2
+B = Y1*Y2
+C = T2*Z1
+D = T1*Z2
+E = T1*Z2 + T2*Z1
+t0 = X1 - Y1
+t1 = X2 + Y2
+t2 = (X1 - Y1)*(X2 + Y2)
+t3 = Y1*Y2 + (X1 - Y1)*(X2 + Y2)
+F = -X1*X2 + Y1*Y2 + (X1 - Y1)*(X2 + Y2)
+t4 = X1*X2*a
+G = X1*X2*a + Y1*Y2
+H = T1*Z2 - T2*Z1
+X3 = (T1*Z2 + T2*Z1)*(-X1*X2 + Y1*Y2 + (X1 - Y1)*(X2 + Y2))
+Y3 = (T1*Z2 - T2*Z1)*(X1*X2*a + Y1*Y2)
+T3 = (T1*Z2 - T2*Z1)*(T1*Z2 + T2*Z1)
+Z3 = (X1*X2*a + Y1*Y2)*(-X1*X2 + Y1*Y2 + (X1 - Y1)*(X2 + Y2))
+
+--- mmadd-2008-hwcd ---
+A = X1*X2
+B = Y1*Y2
+t0 = T2*d
+C = T1*T2*d
+t1 = X1 + Y1
+t2 = X2 + Y2
+t3 = (X1 + Y1)*(X2 + Y2)
+t4 = -X1*X2 + (X1 + Y1)*(X2 + Y2)
+E = -X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2)
+F = -T1*T2*d + 1
+G = T1*T2*d + 1
+t5 = X1*X2*a
+H = -X1*X2*a + Y1*Y2
+X3 = (-T1*T2*d + 1)*(-X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2))
+Y3 = (T1*T2*d + 1)*(-X1*X2*a + Y1*Y2)
+T3 = (-X1*X2*a + Y1*Y2)*(-X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2))
+t6 = T1**2*T2**2*d**2
+Z3 = -T1**2*T2**2*d**2 + 1
+Unsatisfied assumption in the formula (Z1 == 1).
+
+--- mmadd-2008-hwcd-2 ---
+A = X1*X2
+B = Y1*Y2
+C = T2
+D = T1
+E = T1 + T2
+t0 = X1 - Y1
+t1 = X2 + Y2
+t2 = (X1 - Y1)*(X2 + Y2)
+t3 = Y1*Y2 + (X1 - Y1)*(X2 + Y2)
+F = -X1*X2 + Y1*Y2 + (X1 - Y1)*(X2 + Y2)
+t4 = X1*X2*a
+G = X1*X2*a + Y1*Y2
+H = T1 - T2
+X3 = (T1 + T2)*(-X1*X2 + Y1*Y2 + (X1 - Y1)*(X2 + Y2))
+Y3 = (T1 - T2)*(X1*X2*a + Y1*Y2)
+T3 = (T1 - T2)*(T1 + T2)
+Z3 = (X1*X2*a + Y1*Y2)*(-X1*X2 + Y1*Y2 + (X1 - Y1)*(X2 + Y2))
+Unsatisfied assumption in the formula (Z1 == 1).
+
+--- add-2008-hwcd ---
+A = X1*X2
+B = Y1*Y2
+t0 = T2*d
+C = T1*T2*d
+D = Z1*Z2
+t1 = X1 + Y1
+t2 = X2 + Y2
+t3 = (X1 + Y1)*(X2 + Y2)
+t4 = -X1*X2 + (X1 + Y1)*(X2 + Y2)
+E = -X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2)
+F = -T1*T2*d + Z1*Z2
+G = T1*T2*d + Z1*Z2
+t5 = X1*X2*a
+H = -X1*X2*a + Y1*Y2
+X3 = (-T1*T2*d + Z1*Z2)*(-X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2))
+Y3 = (T1*T2*d + Z1*Z2)*(-X1*X2*a + Y1*Y2)
+T3 = (-X1*X2*a + Y1*Y2)*(-X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2))
+Z3 = (-T1*T2*d + Z1*Z2)*(T1*T2*d + Z1*Z2)
+
+--- madd-2008-hwcd-2 ---
+A = X1*X2
+B = Y1*Y2
+C = T2*Z1
+D = T1
+E = T1 + T2*Z1
+t0 = X1 - Y1
+t1 = X2 + Y2
+t2 = (X1 - Y1)*(X2 + Y2)
+t3 = Y1*Y2 + (X1 - Y1)*(X2 + Y2)
+F = -X1*X2 + Y1*Y2 + (X1 - Y1)*(X2 + Y2)
+t4 = X1*X2*a
+G = X1*X2*a + Y1*Y2
+H = T1 - T2*Z1
+X3 = (T1 + T2*Z1)*(-X1*X2 + Y1*Y2 + (X1 - Y1)*(X2 + Y2))
+Y3 = (T1 - T2*Z1)*(X1*X2*a + Y1*Y2)
+T3 = (T1 - T2*Z1)*(T1 + T2*Z1)
+Z3 = (X1*X2*a + Y1*Y2)*(-X1*X2 + Y1*Y2 + (X1 - Y1)*(X2 + Y2))
+Unsatisfied assumption in the formula (Z2 == 1).
+
+###### projective ######
+--- madd-2008-bbjlp ---
+B = Z1**2
+C = X1*X2
+D = Y1*Y2
+t0 = X1*X2*Y1*Y2
+E = X1*X2*Y1*Y2*d
+F = -X1*X2*Y1*Y2*d + Z1**2
+G = X1*X2*Y1*Y2*d + Z1**2
+t1 = X1 + Y1
+t2 = X2 + Y2
+t3 = (X1 + Y1)*(X2 + Y2)
+t4 = -X1*X2 + (X1 + Y1)*(X2 + Y2)
+t5 = -X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2)
+t6 = (-X1*X2*Y1*Y2*d + Z1**2)*(-X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2))
+X3 = Z1*(-X1*X2*Y1*Y2*d + Z1**2)*(-X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2))
+t7 = X1*X2*a
+t8 = -X1*X2*a + Y1*Y2
+t9 = (-X1*X2*a + Y1*Y2)*(X1*X2*Y1*Y2*d + Z1**2)
+Y3 = Z1*(-X1*X2*a + Y1*Y2)*(X1*X2*Y1*Y2*d + Z1**2)
+Z3 = (-X1*X2*Y1*Y2*d + Z1**2)*(X1*X2*Y1*Y2*d + Z1**2)
+Unsatisfied assumption in the formula (Z2 == 1).
+
+--- mmadd-2008-bbjlp ---
+C = X1*X2
+D = Y1*Y2
+t0 = X1*X2*Y1*Y2
+E = X1*X2*Y1*Y2*d
+t1 = X1 + Y1
+t2 = X2 + Y2
+t3 = (X1 + Y1)*(X2 + Y2)
+t4 = -X1*X2*Y1*Y2*d + 1
+t5 = -X1*X2 + (X1 + Y1)*(X2 + Y2)
+t6 = -X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2)
+X3 = (-X1*X2*Y1*Y2*d + 1)*(-X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2))
+t7 = X1*X2*a
+t8 = X1*X2*Y1*Y2*d + 1
+t9 = -X1*X2*a + Y1*Y2
+Y3 = (-X1*X2*a + Y1*Y2)*(X1*X2*Y1*Y2*d + 1)
+t10 = X1**2*X2**2*Y1**2*Y2**2*d**2
+Z3 = -X1**2*X2**2*Y1**2*Y2**2*d**2 + 1
+Unsatisfied assumption in the formula (Z1 == 1).
+
+--- add-2008-bbjlp ---
+A = Z1*Z2
+B = Z1**2*Z2**2
+C = X1*X2
+D = Y1*Y2
+t0 = X1*X2*Y1*Y2
+E = X1*X2*Y1*Y2*d
+F = -X1*X2*Y1*Y2*d + Z1**2*Z2**2
+G = X1*X2*Y1*Y2*d + Z1**2*Z2**2
+t1 = X1 + Y1
+t2 = X2 + Y2
+t3 = (X1 + Y1)*(X2 + Y2)
+t4 = -X1*X2 + (X1 + Y1)*(X2 + Y2)
+t5 = -X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2)
+t6 = (-X1*X2*Y1*Y2*d + Z1**2*Z2**2)*(-X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2))
+X3 = Z1*Z2*(-X1*X2*Y1*Y2*d + Z1**2*Z2**2)*(-X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2))
+t7 = X1*X2*a
+t8 = -X1*X2*a + Y1*Y2
+t9 = (-X1*X2*a + Y1*Y2)*(X1*X2*Y1*Y2*d + Z1**2*Z2**2)
+Y3 = Z1*Z2*(-X1*X2*a + Y1*Y2)*(X1*X2*Y1*Y2*d + Z1**2*Z2**2)
+Z3 = (-X1*X2*Y1*Y2*d + Z1**2*Z2**2)*(X1*X2*Y1*Y2*d + Z1**2*Z2**2)
+
+###### extended-1 ######
+--- madd-2008-hwcd ---
+A = X1*X2
+B = Y1*Y2
+t0 = T2*d
+C = T1*T2*d
+D = Z1
+t1 = X1 + Y1
+t2 = X2 + Y2
+t3 = (X1 + Y1)*(X2 + Y2)
+t4 = -X1*X2 + (X1 + Y1)*(X2 + Y2)
+E = -X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2)
+F = -T1*T2*d + Z1
+G = T1*T2*d + Z1
+t5 = X1*X2*a
+H = -X1*X2*a + Y1*Y2
+X3 = (-T1*T2*d + Z1)*(-X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2))
+Y3 = (T1*T2*d + Z1)*(-X1*X2*a + Y1*Y2)
+T3 = (-X1*X2*a + Y1*Y2)*(-X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2))
+Z3 = (-T1*T2*d + Z1)*(T1*T2*d + Z1)
+Unsatisfied assumption in the formula (Z2 == 1).
+
+--- add-2008-hwcd-2 ---
+A = X1*X2
+B = Y1*Y2
+C = T2*Z1
+D = T1*Z2
+E = T1*Z2 + T2*Z1
+t0 = X1 - Y1
+t1 = X2 + Y2
+t2 = (X1 - Y1)*(X2 + Y2)
+t3 = Y1*Y2 + (X1 - Y1)*(X2 + Y2)
+F = -X1*X2 + Y1*Y2 + (X1 - Y1)*(X2 + Y2)
+t4 = X1*X2*a
+G = X1*X2*a + Y1*Y2
+H = T1*Z2 - T2*Z1
+X3 = (T1*Z2 + T2*Z1)*(-X1*X2 + Y1*Y2 + (X1 - Y1)*(X2 + Y2))
+Y3 = (T1*Z2 - T2*Z1)*(X1*X2*a + Y1*Y2)
+T3 = (T1*Z2 - T2*Z1)*(T1*Z2 + T2*Z1)
+Z3 = (X1*X2*a + Y1*Y2)*(-X1*X2 + Y1*Y2 + (X1 - Y1)*(X2 + Y2))
+
+--- mmadd-2008-hwcd ---
+A = X1*X2
+B = Y1*Y2
+t0 = T2*d
+C = T1*T2*d
+t1 = X1 + Y1
+t2 = X2 + Y2
+t3 = (X1 + Y1)*(X2 + Y2)
+t4 = -X1*X2 + (X1 + Y1)*(X2 + Y2)
+E = -X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2)
+F = -T1*T2*d + 1
+G = T1*T2*d + 1
+t5 = X1*X2*a
+H = -X1*X2*a + Y1*Y2
+X3 = (-T1*T2*d + 1)*(-X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2))
+Y3 = (T1*T2*d + 1)*(-X1*X2*a + Y1*Y2)
+T3 = (-X1*X2*a + Y1*Y2)*(-X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2))
+t6 = T1**2*T2**2*d**2
+Z3 = -T1**2*T2**2*d**2 + 1
+Unsatisfied assumption in the formula (Z1 == 1).
+
+--- madd-2008-hwcd-4 ---
+t0 = -X1 + Y1
+t1 = X2 + Y2
+A = (-X1 + Y1)*(X2 + Y2)
+t2 = X1 + Y1
+t3 = -X2 + Y2
+B = (X1 + Y1)*(-X2 + Y2)
+t4 = 2*T2
+C = 2*T2*Z1
+D = 2*T1
+E = 2*T1 + 2*T2*Z1
+F = -(-X1 + Y1)*(X2 + Y2) + (X1 + Y1)*(-X2 + Y2)
+G = (-X1 + Y1)*(X2 + Y2) + (X1 + Y1)*(-X2 + Y2)
+H = 2*T1 - 2*T2*Z1
+X3 = (2*T1 + 2*T2*Z1)*(-(-X1 + Y1)*(X2 + Y2) + (X1 + Y1)*(-X2 + Y2))
+Y3 = (2*T1 - 2*T2*Z1)*((-X1 + Y1)*(X2 + Y2) + (X1 + Y1)*(-X2 + Y2))
+T3 = (2*T1 - 2*T2*Z1)*(2*T1 + 2*T2*Z1)
+Z3 = (-(-X1 + Y1)*(X2 + Y2) + (X1 + Y1)*(-X2 + Y2))*((-X1 + Y1)*(X2 + Y2) + (X1 + Y1)*(-X2 + Y2))
+Unsatisfied assumption in the formula (Z2 == 1).
+
+--- madd-2008-hwcd-3 ---
+t0 = -X1 + Y1
+t1 = -X2 + Y2
+A = (-X1 + Y1)*(-X2 + Y2)
+t2 = X1 + Y1
+t3 = X2 + Y2
+B = (X1 + Y1)*(X2 + Y2)
+t4 = 2*T2*d
+C = 2*T1*T2*d
+D = 2*Z1
+E = -(-X1 + Y1)*(-X2 + Y2) + (X1 + Y1)*(X2 + Y2)
+F = -2*T1*T2*d + 2*Z1
+G = 2*T1*T2*d + 2*Z1
+H = (-X1 + Y1)*(-X2 + Y2) + (X1 + Y1)*(X2 + Y2)
+X3 = (-(-X1 + Y1)*(-X2 + Y2) + (X1 + Y1)*(X2 + Y2))*(-2*T1*T2*d + 2*Z1)
+Y3 = ((-X1 + Y1)*(-X2 + Y2) + (X1 + Y1)*(X2 + Y2))*(2*T1*T2*d + 2*Z1)
+T3 = (-(-X1 + Y1)*(-X2 + Y2) + (X1 + Y1)*(X2 + Y2))*((-X1 + Y1)*(-X2 + Y2) + (X1 + Y1)*(X2 + Y2))
+Z3 = (-2*T1*T2*d + 2*Z1)*(2*T1*T2*d + 2*Z1)
+Unsatisfied assumption in the formula (Z2 == 1).
+
+--- mmadd-2008-hwcd-3 ---
+t0 = -X1 + Y1
+t1 = -X2 + Y2
+A = (-X1 + Y1)*(-X2 + Y2)
+t2 = X1 + Y1
+t3 = X2 + Y2
+B = (X1 + Y1)*(X2 + Y2)
+t4 = 2*T2*d
+C = 2*T1*T2*d
+E = -(-X1 + Y1)*(-X2 + Y2) + (X1 + Y1)*(X2 + Y2)
+F = -2*T1*T2*d + 2
+G = 2*T1*T2*d + 2
+H = (-X1 + Y1)*(-X2 + Y2) + (X1 + Y1)*(X2 + Y2)
+X3 = (-(-X1 + Y1)*(-X2 + Y2) + (X1 + Y1)*(X2 + Y2))*(-2*T1*T2*d + 2)
+Y3 = ((-X1 + Y1)*(-X2 + Y2) + (X1 + Y1)*(X2 + Y2))*(2*T1*T2*d + 2)
+T3 = (-(-X1 + Y1)*(-X2 + Y2) + (X1 + Y1)*(X2 + Y2))*((-X1 + Y1)*(-X2 + Y2) + (X1 + Y1)*(X2 + Y2))
+t5 = 4*T1**2*T2**2*d**2
+Z3 = -4*T1**2*T2**2*d**2 + 4
+Unsatisfied assumption in the formula (Z1 == 1).
+
+--- add-2008-hwcd-3 ---
+t0 = -X1 + Y1
+t1 = -X2 + Y2
+A = (-X1 + Y1)*(-X2 + Y2)
+t2 = X1 + Y1
+t3 = X2 + Y2
+B = (X1 + Y1)*(X2 + Y2)
+t4 = 2*T2*d
+C = 2*T1*T2*d
+t5 = 2*Z2
+D = 2*Z1*Z2
+E = -(-X1 + Y1)*(-X2 + Y2) + (X1 + Y1)*(X2 + Y2)
+F = -2*T1*T2*d + 2*Z1*Z2
+G = 2*T1*T2*d + 2*Z1*Z2
+H = (-X1 + Y1)*(-X2 + Y2) + (X1 + Y1)*(X2 + Y2)
+X3 = (-(-X1 + Y1)*(-X2 + Y2) + (X1 + Y1)*(X2 + Y2))*(-2*T1*T2*d + 2*Z1*Z2)
+Y3 = ((-X1 + Y1)*(-X2 + Y2) + (X1 + Y1)*(X2 + Y2))*(2*T1*T2*d + 2*Z1*Z2)
+T3 = (-(-X1 + Y1)*(-X2 + Y2) + (X1 + Y1)*(X2 + Y2))*((-X1 + Y1)*(-X2 + Y2) + (X1 + Y1)*(X2 + Y2))
+Z3 = (-2*T1*T2*d + 2*Z1*Z2)*(2*T1*T2*d + 2*Z1*Z2)
+
+--- mmadd-2008-hwcd-4 ---
+t0 = -X1 + Y1
+t1 = X2 + Y2
+A = (-X1 + Y1)*(X2 + Y2)
+t2 = X1 + Y1
+t3 = -X2 + Y2
+B = (X1 + Y1)*(-X2 + Y2)
+C = 2*T2
+D = 2*T1
+E = 2*T1 + 2*T2
+F = -(-X1 + Y1)*(X2 + Y2) + (X1 + Y1)*(-X2 + Y2)
+G = (-X1 + Y1)*(X2 + Y2) + (X1 + Y1)*(-X2 + Y2)
+H = 2*T1 - 2*T2
+X3 = (2*T1 + 2*T2)*(-(-X1 + Y1)*(X2 + Y2) + (X1 + Y1)*(-X2 + Y2))
+Y3 = (2*T1 - 2*T2)*((-X1 + Y1)*(X2 + Y2) + (X1 + Y1)*(-X2 + Y2))
+T3 = (2*T1 - 2*T2)*(2*T1 + 2*T2)
+Z3 = (-(-X1 + Y1)*(X2 + Y2) + (X1 + Y1)*(-X2 + Y2))*((-X1 + Y1)*(X2 + Y2) + (X1 + Y1)*(-X2 + Y2))
+Unsatisfied assumption in the formula (Z1 == 1).
+
+--- mmadd-2008-hwcd-2 ---
+A = X1*X2
+B = Y1*Y2
+C = T2
+D = T1
+E = T1 + T2
+t0 = X1 - Y1
+t1 = X2 + Y2
+t2 = (X1 - Y1)*(X2 + Y2)
+t3 = Y1*Y2 + (X1 - Y1)*(X2 + Y2)
+F = -X1*X2 + Y1*Y2 + (X1 - Y1)*(X2 + Y2)
+t4 = X1*X2*a
+G = X1*X2*a + Y1*Y2
+H = T1 - T2
+X3 = (T1 + T2)*(-X1*X2 + Y1*Y2 + (X1 - Y1)*(X2 + Y2))
+Y3 = (T1 - T2)*(X1*X2*a + Y1*Y2)
+T3 = (T1 - T2)*(T1 + T2)
+Z3 = (X1*X2*a + Y1*Y2)*(-X1*X2 + Y1*Y2 + (X1 - Y1)*(X2 + Y2))
+Unsatisfied assumption in the formula (Z1 == 1).
+
+--- add-2008-hwcd ---
+A = X1*X2
+B = Y1*Y2
+t0 = T2*d
+C = T1*T2*d
+D = Z1*Z2
+t1 = X1 + Y1
+t2 = X2 + Y2
+t3 = (X1 + Y1)*(X2 + Y2)
+t4 = -X1*X2 + (X1 + Y1)*(X2 + Y2)
+E = -X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2)
+F = -T1*T2*d + Z1*Z2
+G = T1*T2*d + Z1*Z2
+t5 = X1*X2*a
+H = -X1*X2*a + Y1*Y2
+X3 = (-T1*T2*d + Z1*Z2)*(-X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2))
+Y3 = (T1*T2*d + Z1*Z2)*(-X1*X2*a + Y1*Y2)
+T3 = (-X1*X2*a + Y1*Y2)*(-X1*X2 - Y1*Y2 + (X1 + Y1)*(X2 + Y2))
+Z3 = (-T1*T2*d + Z1*Z2)*(T1*T2*d + Z1*Z2)
+
+--- madd-2008-hwcd-2 ---
+A = X1*X2
+B = Y1*Y2
+C = T2*Z1
+D = T1
+E = T1 + T2*Z1
+t0 = X1 - Y1
+t1 = X2 + Y2
+t2 = (X1 - Y1)*(X2 + Y2)
+t3 = Y1*Y2 + (X1 - Y1)*(X2 + Y2)
+F = -X1*X2 + Y1*Y2 + (X1 - Y1)*(X2 + Y2)
+t4 = X1*X2*a
+G = X1*X2*a + Y1*Y2
+H = T1 - T2*Z1
+X3 = (T1 + T2*Z1)*(-X1*X2 + Y1*Y2 + (X1 - Y1)*(X2 + Y2))
+Y3 = (T1 - T2*Z1)*(X1*X2*a + Y1*Y2)
+T3 = (T1 - T2*Z1)*(T1 + T2*Z1)
+Z3 = (X1*X2*a + Y1*Y2)*(-X1*X2 + Y1*Y2 + (X1 - Y1)*(X2 + Y2))
+Unsatisfied assumption in the formula (Z2 == 1).
+
+--- add-2008-hwcd-4 ---
+t0 = -X1 + Y1
+t1 = X2 + Y2
+A = (-X1 + Y1)*(X2 + Y2)
+t2 = X1 + Y1
+t3 = -X2 + Y2
+B = (X1 + Y1)*(-X2 + Y2)
+t4 = 2*T2
+C = 2*T2*Z1
+t5 = 2*Z2
+D = 2*T1*Z2
+E = 2*T1*Z2 + 2*T2*Z1
+F = -(-X1 + Y1)*(X2 + Y2) + (X1 + Y1)*(-X2 + Y2)
+G = (-X1 + Y1)*(X2 + Y2) + (X1 + Y1)*(-X2 + Y2)
+H = 2*T1*Z2 - 2*T2*Z1
+X3 = (2*T1*Z2 + 2*T2*Z1)*(-(-X1 + Y1)*(X2 + Y2) + (X1 + Y1)*(-X2 + Y2))
+Y3 = (2*T1*Z2 - 2*T2*Z1)*((-X1 + Y1)*(X2 + Y2) + (X1 + Y1)*(-X2 + Y2))
+T3 = (2*T1*Z2 - 2*T2*Z1)*(2*T1*Z2 + 2*T2*Z1)
+Z3 = (-(-X1 + Y1)*(X2 + Y2) + (X1 + Y1)*(-X2 + Y2))*((-X1 + Y1)*(X2 + Y2) + (X1 + Y1)*(-X2 + Y2))

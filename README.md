@@ -18,3 +18,20 @@ This repository contains data and scripts used in the [A formula for disaster: a
 > in new formulas. These results indicate the usefulness of our tooling for
 > unrolling formulas and finding special points, potentially of independent
 > research interest.
+
+
+## Contents
+
+ * `unrolling/` -> Scripts/notebooks and data of unrolled formulas from the Explicit-Formulas Database.
+ * `epa/` -> Scripts and data related to the Exceptional Procedure Attack.
+ * `rpa/` -> Scripts and data related to the Refined Power Analysis attack.
+ * `zvp/` -> Scripts and data related to the Zero-Value Point attack.
+
+## Requirements
+
+The notebooks are Jupyter notebooks and as such require Jupyter to run.
+Some notebooks also require a SageMath kernel.
+The scripts and notebooks use the [pyecsca](https://neuromancer.sk/pyecsca/)
+toolkit and an export of the Explicit-Formulas Database available at [efd](https://github.com/J08nY/efd),
+which is also a part of pyecsca.
+

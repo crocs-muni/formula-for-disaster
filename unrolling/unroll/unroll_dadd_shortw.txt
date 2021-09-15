@@ -1,0 +1,209 @@
+--- mdadd-2002-it ---
+t0 = X3*Z2
+t1 = X2*Z3
+t2 = Z2*Z3
+t3 = Z2*Z3*a
+t4 = X2*X3
+t5 = X2*X3 - Z2*Z3*a
+t6 = X2*Z3 + X3*Z2
+t7 = (X2*X3 - Z2*Z3*a)**2
+t8 = Z3*(X2*Z3 + X3*Z2)
+t9 = Z2*Z3*(X2*Z3 + X3*Z2)
+t10 = Z2*Z3*b*(X2*Z3 + X3*Z2)
+t11 = 4*Z2*Z3*b*(X2*Z3 + X3*Z2)
+X4 = -4*Z2*Z3*b*(X2*Z3 + X3*Z2) + (X2*X3 - Z2*Z3*a)**2
+t12 = X3*Z2
+t13 = X2*Z3
+t14 = X2*Z3 - X3*Z2
+t15 = (X2*Z3 - X3*Z2)**2
+Z4 = X1*(X2*Z3 - X3*Z2)**2
+Unsatisfied assumption in the formula (Z1 == 1).
+
+--- mdadd-2002-bj-2 ---
+A = X2*X3
+B = Z2*Z3
+C = X2*Z3
+D = X3*Z2
+t0 = Z2*Z3*a
+t1 = X2*X3 - Z2*Z3*a
+t2 = X2*Z3 + X3*Z2
+t3 = (X2*X3 - Z2*Z3*a)**2
+t4 = Z2*Z3*(X2*Z3 + X3*Z2)
+t5 = 4*Z2*Z3*b*(X2*Z3 + X3*Z2)
+X4 = -4*Z2*Z3*b*(X2*Z3 + X3*Z2) + (X2*X3 - Z2*Z3*a)**2
+t6 = X2*Z3 - X3*Z2
+t7 = (X2*Z3 - X3*Z2)**2
+Z4 = X1*(X2*Z3 - X3*Z2)**2
+Unsatisfied assumption in the formula (Z1 == 1).
+
+--- dadd-2002-it ---
+t0 = X3*Z2
+t1 = X2*Z3
+t2 = Z2*Z3
+t3 = Z2*Z3*a
+t4 = X2*X3
+t5 = X2*X3 - Z2*Z3*a
+t6 = X2*Z3 + X3*Z2
+t7 = (X2*X3 - Z2*Z3*a)**2
+t8 = Z3*(X2*Z3 + X3*Z2)
+t9 = Z2*Z3*(X2*Z3 + X3*Z2)
+t10 = Z2*Z3*b*(X2*Z3 + X3*Z2)
+t11 = 4*Z2*Z3*b*(X2*Z3 + X3*Z2)
+t12 = -4*Z2*Z3*b*(X2*Z3 + X3*Z2) + (X2*X3 - Z2*Z3*a)**2
+X4 = Z1*(-4*Z2*Z3*b*(X2*Z3 + X3*Z2) + (X2*X3 - Z2*Z3*a)**2)
+t13 = X3*Z2
+t14 = X2*Z3
+t15 = X2*Z3 - X3*Z2
+t16 = (X2*Z3 - X3*Z2)**2
+Z4 = X1*(X2*Z3 - X3*Z2)**2
+
+--- mdadd-2002-bj ---
+t0 = X3*Z2
+t1 = X2*Z3
+t2 = Z2*Z3
+t3 = Z2*Z3*a
+t4 = X2*X3
+t5 = X2*X3 - Z2*Z3*a
+t6 = X2*Z3 + X3*Z2
+t7 = (X2*X3 - Z2*Z3*a)**2
+t8 = Z3*(X2*Z3 + X3*Z2)
+t9 = Z2*Z3*(X2*Z3 + X3*Z2)
+t10 = Z2*Z3*b*(X2*Z3 + X3*Z2)
+t11 = 4*Z2*Z3*b*(X2*Z3 + X3*Z2)
+X4 = -4*Z2*Z3*b*(X2*Z3 + X3*Z2) + (X2*X3 - Z2*Z3*a)**2
+t12 = X3*Z2
+t13 = X2*Z3
+t14 = X2*Z3 - X3*Z2
+t15 = (X2*Z3 - X3*Z2)**2
+Z4 = X1*(X2*Z3 - X3*Z2)**2
+Unsatisfied assumption in the formula (Z1 == 1).
+
+--- mdadd-2002-it-3 ---
+T1 = X2*X3
+T2 = Z2*Z3
+T3 = X2*Z3
+T4 = X3*Z2
+T5 = Z2*Z3*a
+T6 = X2*X3 - Z2*Z3*a
+T7 = (X2*X3 - Z2*Z3*a)**2
+T8 = Z2*Z3*b
+T9 = 4*Z2*Z3*b
+T10 = X2*Z3 + X3*Z2
+T11 = 4*Z2*Z3*b*(X2*Z3 + X3*Z2)
+T12 = -4*Z2*Z3*b*(X2*Z3 + X3*Z2) + (X2*X3 - Z2*Z3*a)**2
+X4 = -4*Z2*Z3*b*(X2*Z3 + X3*Z2) + (X2*X3 - Z2*Z3*a)**2
+T13 = X2*Z3 - X3*Z2
+T14 = (X2*Z3 - X3*Z2)**2
+Z4 = X1*(X2*Z3 - X3*Z2)**2
+Unsatisfied assumption in the formula (Z1 == 1).
+
+--- dadd-2002-it-2 ---
+t0 = Z2*Z3
+t1 = Z2*Z3*a
+t2 = X2*X3
+t3 = X3*Z2
+t4 = X2*Z3
+t5 = X2*Z3 + X3*Z2
+t6 = X2*X3 + Z2*Z3*a
+t7 = Z2**2
+t8 = Z3**2
+t9 = Z2**2*Z3**2
+t10 = Z2**2*Z3**2*b
+t11 = 4*Z2**2*Z3**2*b
+t12 = (X2*X3 + Z2*Z3*a)*(X2*Z3 + X3*Z2)
+t13 = 2*(X2*X3 + Z2*Z3*a)*(X2*Z3 + X3*Z2)
+R = 4*Z2**2*Z3**2*b + 2*(X2*X3 + Z2*Z3*a)*(X2*Z3 + X3*Z2)
+t14 = X3*Z2
+t15 = X2*Z3
+t16 = X2*Z3 - X3*Z2
+S = (X2*Z3 - X3*Z2)**2
+t17 = X1*(X2*Z3 - X3*Z2)**2
+t18 = Z1*(4*Z2**2*Z3**2*b + 2*(X2*X3 + Z2*Z3*a)*(X2*Z3 + X3*Z2))
+X4 = -X1*(X2*Z3 - X3*Z2)**2 + Z1*(4*Z2**2*Z3**2*b + 2*(X2*X3 + Z2*Z3*a)*(X2*Z3 + X3*Z2))
+Z4 = Z1*(X2*Z3 - X3*Z2)**2
+
+--- mdadd-2002-it-4 ---
+T1 = X2*X3
+T2 = Z2*Z3
+T3 = X2*Z3
+T4 = X3*Z2
+T5 = X2*Z3 + X3*Z2
+T6 = Z2*Z3*a
+T7 = X2*X3 + Z2*Z3*a
+T8 = (X2*X3 + Z2*Z3*a)*(X2*Z3 + X3*Z2)
+T9 = 2*(X2*X3 + Z2*Z3*a)*(X2*Z3 + X3*Z2)
+T10 = Z2**2*Z3**2
+T11 = Z2**2*Z3**2*b
+T12 = 4*Z2**2*Z3**2*b
+T13 = 4*Z2**2*Z3**2*b + 2*(X2*X3 + Z2*Z3*a)*(X2*Z3 + X3*Z2)
+T14 = X2*Z3 - X3*Z2
+T15 = (X2*Z3 - X3*Z2)**2
+T16 = 4*Z2**2*Z3**2*b + 2*(X2*X3 + Z2*Z3*a)*(X2*Z3 + X3*Z2)
+T17 = X1*(X2*Z3 - X3*Z2)**2
+X4 = -X1*(X2*Z3 - X3*Z2)**2 + 4*Z2**2*Z3**2*b + 2*(X2*X3 + Z2*Z3*a)*(X2*Z3 + X3*Z2)
+Z4 = (X2*Z3 - X3*Z2)**2
+Unsatisfied assumption in the formula (Z1 == 1).
+
+--- dadd-2002-it-3 ---
+T1 = X2*X3
+T2 = Z2*Z3
+T3 = X2*Z3
+T4 = X3*Z2
+T5 = Z2*Z3*a
+T6 = X2*X3 - Z2*Z3*a
+T7 = (X2*X3 - Z2*Z3*a)**2
+T8 = Z2*Z3*b
+T9 = 4*Z2*Z3*b
+T10 = X2*Z3 + X3*Z2
+T11 = 4*Z2*Z3*b*(X2*Z3 + X3*Z2)
+T12 = -4*Z2*Z3*b*(X2*Z3 + X3*Z2) + (X2*X3 - Z2*Z3*a)**2
+X4 = Z1*(-4*Z2*Z3*b*(X2*Z3 + X3*Z2) + (X2*X3 - Z2*Z3*a)**2)
+T13 = X2*Z3 - X3*Z2
+T14 = (X2*Z3 - X3*Z2)**2
+Z4 = X1*(X2*Z3 - X3*Z2)**2
+
+--- mdadd-2002-it-2 ---
+t0 = Z2*Z3
+t1 = Z2*Z3*a
+t2 = X2*X3
+t3 = X3*Z2
+t4 = X2*Z3
+t5 = X2*Z3 + X3*Z2
+t6 = X2*X3 + Z2*Z3*a
+t7 = Z2**2
+t8 = Z3**2
+t9 = Z2**2*Z3**2
+t10 = Z2**2*Z3**2*b
+t11 = 4*Z2**2*Z3**2*b
+t12 = (X2*X3 + Z2*Z3*a)*(X2*Z3 + X3*Z2)
+t13 = 2*(X2*X3 + Z2*Z3*a)*(X2*Z3 + X3*Z2)
+R = 4*Z2**2*Z3**2*b + 2*(X2*X3 + Z2*Z3*a)*(X2*Z3 + X3*Z2)
+t14 = X3*Z2
+t15 = X2*Z3
+t16 = X2*Z3 - X3*Z2
+S = (X2*Z3 - X3*Z2)**2
+t17 = X1*(X2*Z3 - X3*Z2)**2
+X4 = -X1*(X2*Z3 - X3*Z2)**2 + 4*Z2**2*Z3**2*b + 2*(X2*X3 + Z2*Z3*a)*(X2*Z3 + X3*Z2)
+Z4 = (X2*Z3 - X3*Z2)**2
+Unsatisfied assumption in the formula (Z1 == 1).
+
+--- dadd-2002-it-4 ---
+T1 = X2*X3
+T2 = Z2*Z3
+T3 = X2*Z3
+T4 = X3*Z2
+T5 = X2*Z3 + X3*Z2
+T6 = Z2*Z3*a
+T7 = X2*X3 + Z2*Z3*a
+T8 = (X2*X3 + Z2*Z3*a)*(X2*Z3 + X3*Z2)
+T9 = 2*(X2*X3 + Z2*Z3*a)*(X2*Z3 + X3*Z2)
+T10 = Z2**2*Z3**2
+T11 = Z2**2*Z3**2*b
+T12 = 4*Z2**2*Z3**2*b
+T13 = 4*Z2**2*Z3**2*b + 2*(X2*X3 + Z2*Z3*a)*(X2*Z3 + X3*Z2)
+T14 = X2*Z3 - X3*Z2
+T15 = (X2*Z3 - X3*Z2)**2
+T16 = Z1*(4*Z2**2*Z3**2*b + 2*(X2*X3 + Z2*Z3*a)*(X2*Z3 + X3*Z2))
+T17 = X1*(X2*Z3 - X3*Z2)**2
+X4 = -X1*(X2*Z3 - X3*Z2)**2 + Z1*(4*Z2**2*Z3**2*b + 2*(X2*X3 + Z2*Z3*a)*(X2*Z3 + X3*Z2))
+Z4 = Z1*(X2*Z3 - X3*Z2)**2
