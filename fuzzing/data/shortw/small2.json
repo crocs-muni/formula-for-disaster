@@ -1,0 +1,29 @@
+{
+  "name": "small2",
+  "category": "test",
+  "desc": "A small curve with points (0, y) and (x, 0).",
+  "field": {
+    "type": "Prime",
+    "p": "0x0d",
+    "bits": 4
+  },
+  "form": "Weierstrass",
+  "params": {
+    "a": {
+      "raw": "0x01"
+    },
+    "b": {
+      "raw": "0x04"
+    }
+  },
+  "generator": {
+    "x": {
+      "raw": "0x02"
+    },
+    "y": {
+      "raw": "0x01"
+    }
+  },
+  "order": "0x0e",
+  "cofactor": "0x01"
+}

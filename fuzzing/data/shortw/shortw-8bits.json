@@ -1,0 +1,132 @@
+{
+	"name": "shortw-test",
+	"desc": "Elliptic curve instances in short Weierstrass form over small primes.",
+	"curves": [
+{
+        "form": "Weierstrass",
+        "name": "shortw-prime-8bits-b-has-sqrt",
+        "category": "shortw-test",
+        "desc": "Short Weierstrass 8-bit prime curve with points of the form (0, y).",
+        "field": {
+                "type": "Prime",
+                "p": "0xFB",
+                "bits":  8
+        },
+        "params": {
+                "a": { "raw": "0xF9" },
+                "b": { "raw": "0xF9" }
+        },
+        "generator": {
+                "x": { "raw": "0x5" },
+                "y": { "raw": "0x66" }
+        },
+        "order": "0x107",
+        "cofactor": "0x1"
+},
+{
+        "form": "Weierstrass",
+        "name": "shortw-8bits-b-has-sqrt",
+        "category": "shortw-test",
+        "desc": "Short Weierstrass 8-bit curve with points of the form (x, 0) and (0, y).",
+        "field": {
+                "type": "Prime",
+                "p": "0xFB",
+                "bits":  8
+        },
+        "params": {
+                "a": { "raw": "0x64" },
+                "b": { "raw": "0x1" }
+        },
+        "generator": {
+                "x": { "raw": "0x5F" },
+                "y": { "raw": "0x73" }
+        },
+        "order": "0x8B",
+        "cofactor": "0x2"
+},
+{
+        "form": "Weierstrass",
+        "name": "shortw-8bits-am3",
+        "category": "shortw-test",
+        "desc": "Short Weierstrass 8-bit curve with a = -3 and points of the form (x, 0) and (0, y).",
+        "field": {
+                "type": "Prime",
+                "p": "0xFB",
+                "bits":  8
+        },
+        "params": {
+                "a": { "raw": "0xF8" },
+                "b": { "raw": "0x5" }
+        },
+        "generator": {
+                "x": { "raw": "0xF9" },
+                "y": { "raw": "0xAF" }
+        },
+        "order": "0x89",
+        "cofactor": "0x2"
+},
+{
+        "form": "Weierstrass",
+        "name": "shortw-8bits-am1",
+        "category": "shortw-test",
+        "desc": "Short Weierstrass 8-bit curve with a = -1 and points of the form (x, 0) and (0, y).",
+        "field": {
+                "type": "Prime",
+                "p": "0xFB",
+                "bits":  8
+        },
+        "params": {
+                "a": { "raw": "0xFA" },
+                "b": { "raw": "0x93" }
+        },
+        "generator": {
+                "x": { "raw": "0x31" },
+                "y": { "raw": "0xA7" }
+        },
+        "order": "0x89",
+        "cofactor": "0x2"
+},
+{
+        "form": "Weierstrass",
+        "name": "shortw-8bits-a0",
+        "category": "shortw-test",
+        "desc": "Short Weierstrass 8-bit curve with a = 0 and points of the form (x, 0) and (0, y).",
+        "field": {
+                "type": "Prime",
+                "p": "0x9D",
+                "bits":  8
+        },
+        "params": {
+                "a": { "raw": "0x0" },
+                "b": { "raw": "0x1" }
+        },
+        "generator": {
+                "x": { "raw": "0x51" },
+                "y": { "raw": "0x19" }
+        },
+        "order": "0x3",
+        "cofactor": "0x4"
+},
+{
+        "form": "Weierstrass",
+        "name": "shortw-8bits-b0",
+        "category": "shortw-test",
+        "desc": "Short Weierstrass 8-bit curve with b = 0 and points of the form (x, 0) and (0, 0).",
+        "field": {
+                "type": "Prime",
+                "p": "0xC5",
+                "bits":  8
+        },
+        "params": {
+                "a": { "raw": "0x2" },
+                "b": { "raw": "0x0" }
+        },
+        "generator": {
+                "x": { "raw": "0xAC" },
+                "y": { "raw": "0xAB" }
+        },
+        "order": "0x71",
+        "cofactor": "0x2"
+}
+	]
+}

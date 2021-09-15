@@ -1,0 +1,132 @@
+{
+	"name": "shortw-test",
+	"desc": "Elliptic curve instances in short Weierstrass form over small primes.",
+	"curves": [
+{
+        "form": "Weierstrass",
+        "name": "shortw-prime-5bits-b-has-sqrt",
+        "category": "shortw-test",
+        "desc": "Short Weierstrass 5-bit prime curve with points of the form (0, y).",
+        "field": {
+                "type": "Prime",
+                "p": "0x1F",
+                "bits":  5
+        },
+        "params": {
+                "a": { "raw": "0x1A" },
+                "b": { "raw": "0x1C" }
+        },
+        "generator": {
+                "x": { "raw": "0x3" },
+                "y": { "raw": "0x3" }
+        },
+        "order": "0x1F",
+        "cofactor": "0x1"
+},
+{
+        "form": "Weierstrass",
+        "name": "shortw-5bits-b-has-sqrt",
+        "category": "shortw-test",
+        "desc": "Short Weierstrass 5-bit curve with points of the form (x, 0) and (0, y).",
+        "field": {
+                "type": "Prime",
+                "p": "0x1D",
+                "bits":  5
+        },
+        "params": {
+                "a": { "raw": "0x14" },
+                "b": { "raw": "0x1" }
+        },
+        "generator": {
+                "x": { "raw": "0x5" },
+                "y": { "raw": "0x14" }
+        },
+        "order": "0x13",
+        "cofactor": "0x2"
+},
+{
+        "form": "Weierstrass",
+        "name": "shortw-5bits-am3",
+        "category": "shortw-test",
+        "desc": "Short Weierstrass 5-bit curve with a = -3 and points of the form (x, 0) and (0, y).",
+        "field": {
+                "type": "Prime",
+                "p": "0x1D",
+                "bits":  5
+        },
+        "params": {
+                "a": { "raw": "0x1A" },
+                "b": { "raw": "0x0" }
+        },
+        "generator": {
+                "x": { "raw": "0x9" },
+                "y": { "raw": "0x15" }
+        },
+        "order": "0x11",
+        "cofactor": "0x2"
+},
+{
+        "form": "Weierstrass",
+        "name": "shortw-5bits-am1",
+        "category": "shortw-test",
+        "desc": "Short Weierstrass 5-bit curve with a = -1 and points of the form (x, 0) and (0, y).",
+        "field": {
+                "type": "Prime",
+                "p": "0x1F",
+                "bits":  5
+        },
+        "params": {
+                "a": { "raw": "0x1E" },
+                "b": { "raw": "0x12" }
+        },
+        "generator": {
+                "x": { "raw": "0x11" },
+                "y": { "raw": "0x4" }
+        },
+        "order": "0x13",
+        "cofactor": "0x2"
+},
+{
+        "form": "Weierstrass",
+        "name": "shortw-5bits-a0",
+        "category": "shortw-test",
+        "desc": "Short Weierstrass 5-bit curve with a = 0 and points of the form (x, 0) and (0, y).",
+        "field": {
+                "type": "Prime",
+                "p": "0x13",
+                "bits":  5
+        },
+        "params": {
+                "a": { "raw": "0x0" },
+                "b": { "raw": "0x1" }
+        },
+        "generator": {
+                "x": { "raw": "0x0" },
+                "y": { "raw": "0x1" }
+        },
+        "order": "0x3",
+        "cofactor": "0x2"
+},
+{
+        "form": "Weierstrass",
+        "name": "shortw-5bits-b0",
+        "category": "shortw-test",
+        "desc": "Short Weierstrass 5-bit curve with b = 0 and points of the form (x, 0) and (0, 0).",
+        "field": {
+                "type": "Prime",
+                "p": "0x1D",
+                "bits":  5
+        },
+        "params": {
+                "a": { "raw": "0x8" },
+                "b": { "raw": "0x0" }
+        },
+        "generator": {
+                "x": { "raw": "0x5" },
+                "y": { "raw": "0x7" }
+        },
+        "order": "0x11",
+        "cofactor": "0x2"
+}
+	]
+}

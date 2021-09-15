@@ -1,0 +1,132 @@
+{
+	"name": "edwards-test",
+	"desc": "Elliptic curve instances in Edwards form over small primes.",
+	"curves": [
+{
+        "form": "Edwards",
+        "name": "edwards-8bits-c1-d-has-sqrt",
+        "category": "edwards-test",
+        "desc": "Edwards 8-bit curve with c = 1 and d has sqrt.",
+        "field": {
+                "type": "Prime",
+                "p": "0xEF",
+                "bits":  8
+        },
+        "params": {
+                "c": { "raw": "0x1" },
+                "d": { "raw": "0x8" }
+        },
+        "generator": {
+                "x": { "raw": "0xD6" },
+                "y": { "raw": "0x98" }
+        },
+        "order": "0x1F",
+        "cofactor": "0x4"
+},
+{
+        "form": "Edwards",
+        "name": "edwards-8bits-cm1-d-has-sqrt",
+        "category": "edwards-test",
+        "desc": "Edwards 8-bit curve with c = -1 and d has sqrt.",
+        "field": {
+                "type": "Prime",
+                "p": "0xEF",
+                "bits":  8
+        },
+        "params": {
+                "c": { "raw": "0xEE" },
+                "d": { "raw": "0x8" }
+        },
+        "generator": {
+                "x": { "raw": "0x19" },
+                "y": { "raw": "0x57" }
+        },
+        "order": "0x1F",
+        "cofactor": "0x4"
+},
+{
+        "form": "Edwards",
+        "name": "edwards-8bits-d-has-sqrt",
+        "category": "edwards-test",
+        "desc": "Edwards 8-bit curve such that d has sqrt.",
+        "field": {
+                "type": "Prime",
+                "p": "0xDF",
+                "bits":  8
+        },
+        "params": {
+                "c": { "raw": "0x10" },
+                "d": { "raw": "0x8" }
+        },
+        "generator": {
+                "x": { "raw": "0xDD" },
+                "y": { "raw": "0xCC" }
+        },
+        "order": "0x1F",
+        "cofactor": "0x4"
+},
+{
+        "form": "Edwards",
+        "name": "edwards-8bits-c1",
+        "category": "edwards-test",
+        "desc": "Edwards 8-bit curve with c = 1 and d does not have sqrt.",
+        "field": {
+                "type": "Prime",
+                "p": "0xEF",
+                "bits":  8
+        },
+        "params": {
+                "c": { "raw": "0x1" },
+                "d": { "raw": "0x25" }
+        },
+        "generator": {
+                "x": { "raw": "0x84" },
+                "y": { "raw": "0xDA" }
+        },
+        "order": "0x43",
+        "cofactor": "0x4"
+},
+{
+        "form": "Edwards",
+        "name": "edwards-8bits-cm1",
+        "category": "edwards-test",
+        "desc": "Edwards 8-bit curve with c = -1 and d does not have sqrt.",
+        "field": {
+                "type": "Prime",
+                "p": "0xEF",
+                "bits":  8
+        },
+        "params": {
+                "c": { "raw": "0xEE" },
+                "d": { "raw": "0x25" }
+        },
+        "generator": {
+                "x": { "raw": "0x6B" },
+                "y": { "raw": "0x15" }
+        },
+        "order": "0x43",
+        "cofactor": "0x4"
+},
+{
+        "form": "Edwards",
+        "name": "edwards-8bits",
+        "category": "edwards-test",
+        "desc": "Edwards 8-bit curve such that d does not have sqrt.",
+        "field": {
+                "type": "Prime",
+                "p": "0xEF",
+                "bits":  8
+        },
+        "params": {
+                "c": { "raw": "0x2" },
+                "d": { "raw": "0x4D" }
+        },
+        "generator": {
+                "x": { "raw": "0x19" },
+                "y": { "raw": "0xC5" }
+        },
+        "order": "0x43",
+        "cofactor": "0x4"
+}
+	]
+}

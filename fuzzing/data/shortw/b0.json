@@ -1,0 +1,29 @@
+{
+  "name": "b0",
+  "category": "test",
+  "desc": "A small curve with b = 0 and point (0, 0) and (x, 0).",
+  "field": {
+    "type": "Prime",
+    "p": "0x0d",
+    "bits": 4
+  },
+  "form": "Weierstrass",
+  "params": {
+    "a": {
+      "raw": "0x04"
+    },
+    "b": {
+      "raw": "0x00"
+    }
+  },
+  "generator": {
+    "x": {
+      "raw": "0x02"
+    },
+    "y": {
+      "raw": "0x04"
+    }
+  },
+  "order": "0x04",
+  "cofactor": "0x02"
+}

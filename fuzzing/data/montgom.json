@@ -1,0 +1,132 @@
+{
+	"name": "montgom-test",
+	"desc": "Elliptic curve instances in Montgomery form over small primes.",
+	"curves": [
+{
+        "form": "Montgomery",
+        "name": "montgom-5bits-b1",
+        "category": "montgom-test",
+        "desc": "Montgomery 5-bit curve with b = 1 and a different from 0 and 6.",
+        "field": {
+                "type": "Prime",
+                "p": "0x13",
+                "bits":  5
+        },
+        "params": {
+                "a": { "raw": "0x8" },
+                "b": { "raw": "0x1" }
+        },
+        "generator": {
+                "x": { "raw": "0x6" },
+                "y": { "raw": "0x4" }
+        },
+        "order": "0x7",
+        "cofactor": "0x4"
+},
+{
+        "form": "Montgomery",
+        "name": "montgom-5bits",
+        "category": "montgom-test",
+        "desc": "Montgomery 5-bit curve.",
+        "field": {
+                "type": "Prime",
+                "p": "0x13",
+                "bits":  5
+        },
+        "params": {
+                "a": { "raw": "0xB" },
+                "b": { "raw": "0x2" }
+        },
+        "generator": {
+                "x": { "raw": "0xD" },
+                "y": { "raw": "0x7" }
+        },
+        "order": "0x7",
+        "cofactor": "0x4"
+},
+{
+        "form": "Montgomery",
+        "name": "montgom-5bits-a6",
+        "category": "montgom-test",
+        "desc": "Montgomery 5-bit curve with a = 6 and b != 1.",
+        "field": {
+                "type": "Prime",
+                "p": "0x11",
+                "bits":  5
+        },
+        "params": {
+                "a": { "raw": "0x6" },
+                "b": { "raw": "0x3" }
+        },
+        "generator": {
+                "x": { "raw": "0xE" },
+                "y": { "raw": "0xC" }
+        },
+        "order": "0x5",
+        "cofactor": "0x2"
+},
+{
+        "form": "Montgomery",
+        "name": "montgom-5bits-b1-a6",
+        "category": "montgom-test",
+        "desc": "Montgomery 5-bit curve with a = 6 and b = 1.",
+        "field": {
+                "type": "Prime",
+                "p": "0x1D",
+                "bits":  5
+        },
+        "params": {
+                "a": { "raw": "0x6" },
+                "b": { "raw": "0x1" }
+        },
+        "generator": {
+                "x": { "raw": "0x19" },
+                "y": { "raw": "0x11" }
+        },
+        "order": "0x5",
+        "cofactor": "0x8"
+},
+{
+        "form": "Montgomery",
+        "name": "montgom-5bits-b1-a0",
+        "category": "montgom-test",
+        "desc": "Montgomery 5-bit curve with a = 0 and b = 1.",
+        "field": {
+                "type": "Prime",
+                "p": "0x1D",
+                "bits":  5
+        },
+        "params": {
+                "a": { "raw": "0x0" },
+                "b": { "raw": "0x1" }
+        },
+        "generator": {
+                "x": { "raw": "0x10" },
+                "y": { "raw": "0x14" }
+        },
+        "order": "0x5",
+        "cofactor": "0x2"
+},
+{
+        "form": "Montgomery",
+        "name": "montgom-5bits-a0",
+        "category": "montgom-test",
+        "desc": "Montgomery 5-bit curve with a = 0 and b != 1.",
+        "field": {
+                "type": "Prime",
+                "p": "0x11",
+                "bits":  5
+        },
+        "params": {
+                "a": { "raw": "0x0" },
+                "b": { "raw": "0x3" }
+        },
+        "generator": {
+                "x": { "raw": "0xA" },
+                "y": { "raw": "0xC" }
+        },
+        "order": "0x5",
+        "cofactor": "0x2"
+}
+	]
+}

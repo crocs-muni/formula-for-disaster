@@ -1,0 +1,69 @@
+{
+	"name": "twisted-test",
+	"desc": "Elliptic curve instances in Twisted Edwards form over small primes.",
+	"curves": [
+{
+        "form": "TwistedEdwards",
+        "name": "twisted-5bits-a1",
+        "category": "twisted-test",
+        "desc": "Twisted Edwards 5-bit curve with a = 1.",
+        "field": {
+                "type": "Prime",
+                "p": "0x13",
+                "bits":  5
+        },
+        "params": {
+                "a": { "raw": "0x1" },
+                "d": { "raw": "0x8" }
+        },
+        "generator": {
+                "x": { "raw": "0x10" },
+                "y": { "raw": "0xE" }
+        },
+        "order": "0x7",
+        "cofactor": "0x4"
+},
+{
+        "form": "TwistedEdwards",
+        "name": "twisted-5bits-am1",
+        "category": "twisted-test",
+        "desc": "Twisted Edwards 5-bit curve with a = -1.",
+        "field": {
+                "type": "Prime",
+                "p": "0x1D",
+                "bits":  5
+        },
+        "params": {
+                "a": { "raw": "0x1C" },
+                "d": { "raw": "0x2" }
+        },
+        "generator": {
+                "x": { "raw": "0x2" },
+                "y": { "raw": "0x16" }
+        },
+        "order": "0x7",
+        "cofactor": "0x4"
+},
+{
+        "form": "TwistedEdwards",
+        "name": "twisted-5bits",
+        "category": "twisted-test",
+        "desc": "Twisted Edwards 5-bit curve.",
+        "field": {
+                "type": "Prime",
+                "p": "0x13",
+                "bits":  5
+        },
+        "params": {
+                "a": { "raw": "0x4" },
+                "d": { "raw": "0xD" }
+        },
+        "generator": {
+                "x": { "raw": "0x2" },
+                "y": { "raw": "0x8" }
+        },
+        "order": "0x7",
+        "cofactor": "0x4"
+}
+	]
+}

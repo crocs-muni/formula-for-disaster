@@ -1,0 +1,132 @@
+{
+	"name": "montgom-test",
+	"desc": "Elliptic curve instances in Montgomery form over small primes.",
+	"curves": [
+{
+        "form": "Montgomery",
+        "name": "montgom-8bits-b1",
+        "category": "montgom-test",
+        "desc": "Montgomery 8-bit curve with b = 1 and a different from 0 and 6.",
+        "field": {
+                "type": "Prime",
+                "p": "0xEF",
+                "bits":  8
+        },
+        "params": {
+                "a": { "raw": "0x5D" },
+                "b": { "raw": "0x1" }
+        },
+        "generator": {
+                "x": { "raw": "0x1B" },
+                "y": { "raw": "0xAF" }
+        },
+        "order": "0x43",
+        "cofactor": "0x4"
+},
+{
+        "form": "Montgomery",
+        "name": "montgom-8bits",
+        "category": "montgom-test",
+        "desc": "Montgomery 8-bit curve.",
+        "field": {
+                "type": "Prime",
+                "p": "0xEF",
+                "bits":  8
+        },
+        "params": {
+                "a": { "raw": "0x5D" },
+                "b": { "raw": "0x2" }
+        },
+        "generator": {
+                "x": { "raw": "0xF" },
+                "y": { "raw": "0x61" }
+        },
+        "order": "0x43",
+        "cofactor": "0x4"
+},
+{
+        "form": "Montgomery",
+        "name": "montgom-8bits-a6",
+        "category": "montgom-test",
+        "desc": "Montgomery 8-bit curve with a = 6 and b != 1.",
+        "field": {
+                "type": "Prime",
+                "p": "0xF1",
+                "bits":  8
+        },
+        "params": {
+                "a": { "raw": "0x6" },
+                "b": { "raw": "0x7" }
+        },
+        "generator": {
+                "x": { "raw": "0x98" },
+                "y": { "raw": "0xB3" }
+        },
+        "order": "0x35",
+        "cofactor": "0x2"
+},
+{
+        "form": "Montgomery",
+        "name": "montgom-8bits-b1-a6",
+        "category": "montgom-test",
+        "desc": "Montgomery 8-bit curve with a = 6 and b = 1.",
+        "field": {
+                "type": "Prime",
+                "p": "0x95",
+                "bits":  8
+        },
+        "params": {
+                "a": { "raw": "0x6" },
+                "b": { "raw": "0x1" }
+        },
+        "generator": {
+                "x": { "raw": "0x35" },
+                "y": { "raw": "0x1D" }
+        },
+        "order": "0x11",
+        "cofactor": "0x8"
+},
+{
+        "form": "Montgomery",
+        "name": "montgom-8bits-b1-a0",
+        "category": "montgom-test",
+        "desc": "Montgomery 8-bit curve with a = 0 and b = 1.",
+        "field": {
+                "type": "Prime",
+                "p": "0x95",
+                "bits":  8
+        },
+        "params": {
+                "a": { "raw": "0x0" },
+                "b": { "raw": "0x1" }
+        },
+        "generator": {
+                "x": { "raw": "0x50" },
+                "y": { "raw": "0x63" }
+        },
+        "order": "0x29",
+        "cofactor": "0x2"
+},
+{
+        "form": "Montgomery",
+        "name": "montgom-8bits-a0",
+        "category": "montgom-test",
+        "desc": "Montgomery 8-bit curve with a = 0 and b != 1.",
+        "field": {
+                "type": "Prime",
+                "p": "0xF1",
+                "bits":  8
+        },
+        "params": {
+                "a": { "raw": "0x0" },
+                "b": { "raw": "0x7" }
+        },
+        "generator": {
+                "x": { "raw": "0x55" },
+                "y": { "raw": "0x35" }
+        },
+        "order": "0x35",
+        "cofactor": "0x2"
+}
+	]
+}

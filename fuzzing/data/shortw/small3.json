@@ -1,0 +1,29 @@
+{
+	"name": "small3",
+	"category": "test",
+	"desc": "Random small elliptic curve y^2 = x^3 + 102x + 90",
+	"field": {
+		"type": "Prime",
+		"p": "0x101",
+		"bits": 9
+	},
+	"form": "Weierstrass",
+	"params": {
+		"a": {
+		"raw": "0x66"
+		},
+		"b": {
+		"raw": "0x5a"
+		}
+	},
+	"generator": {
+		"x": {
+		"raw": "0x34"
+		},
+		"y": {
+		"raw": "0x8a"
+		}
+	},
+	"order": "0xfb",
+	"cofactor": "0x01"
+}
