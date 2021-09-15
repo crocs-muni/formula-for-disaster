@@ -26,7 +26,7 @@ This repository contains data and scripts used in the [A formula for disaster: a
  * `epa/` -> Scripts and data related to the Exceptional Procedure Attack.
  * `rpa/` -> Scripts and data related to the Refined Power Analysis attack.
  * `zvp/` -> Scripts and data related to the Zero-Value Point attack.
-* `fuzzing/` -> Scripts and data related to the [fuzzing](./fuzzing/README.md) search (brute force search).
+ * `fuzzing/` -> Scripts and data related to the [fuzzing](./fuzzing/README.md) search (brute force search).
 
 ## Requirements
 
