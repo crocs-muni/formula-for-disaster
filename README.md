@@ -33,6 +33,6 @@ This repository contains data and scripts used in the [A formula for disaster: a
 The notebooks are Jupyter notebooks and as such require Jupyter to run.
 Some notebooks also require a SageMath kernel.
 The scripts and notebooks use the [pyecsca](https://neuromancer.sk/pyecsca/)
-toolkit and an export of the Explicit-Formulas Database available at [efd](https://github.com/J08nY/efd),
+toolkit and an export of the Explicit-Formulas Database available at [efd](https://github.com/crocs-muni/efd),
 which is also a part of pyecsca.
 
